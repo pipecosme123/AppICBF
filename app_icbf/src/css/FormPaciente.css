@@ -2,54 +2,50 @@
    margin: 1em 8em;
 }
 
-.Antecedentes {
+.FormPaciente {
    color: var(--Color-Text1);
 }
 
-.Antecedentes h1,
-.Antecedentes h3 {
+.FormPaciente h1,
+.FormPaciente h3 {
    text-align: center;
 }
 
-.Antecedentes h1.title {
+.FormPaciente h1.title {
    font-family: "Italic";
    color: var(--Color-Colgate);
 }
 
-.Antecedentes h3.subtitle {
+.FormPaciente h3.subtitle {
    font-family: "LightItalic";
    color: var(--Color-Text1);
    margin: 10px 0 0 0;
    /* font-size: 1em; */
 }
 
-/* .formAntecedentes hr{
-   width: 30%;
-} */
-
-.formAntecedentes .fecha {
+.divFormPaciente .fecha {
    display: flex;
    align-items: baseline;
 }
 
-.formAntecedentes .fecha h3 {
+.divFormPaciente .fecha h3 {
    margin-right: 10px;
 }
 
-.formAntecedentes .fecha p {
+.divFormPaciente .fecha p {
    margin-right: 10px;
    padding: 10px;
    background: var(--Color-Background);
    border-radius: 10px;
 }
 
-.formAntecedentes .InputText {
+.divFormPaciente .InputText {
    display: flex;
    align-items: center;
    margin: 10px;
 }
 
-.formAntecedentes .InputText .labelInput {
+.divFormPaciente .InputText .labelInput {
    margin-right: 5px;
 }
 
@@ -137,7 +133,7 @@ h3.sub2 {
    transform: translate(-50%, -50%) scale(1);
 }
 
-.formAntecedentes .divInputText {
+.divFormPaciente .divInputText {
    /* width: 100%; */
    display: flex;
    flex-wrap: wrap;
@@ -163,7 +159,7 @@ ol li p {
 }
 
 input[type="submit"] {
-   background: var(--Color-ICBF);
+   background: var(--Color-Azul-Colgate);
    font-family: "BoldItalic";
    font-size: 1.2em;
    color: #fff;

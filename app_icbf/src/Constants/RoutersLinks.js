@@ -1,4 +1,4 @@
 export const RoutersLinks = {
-   antecedentes: "/",
+   formPacientes: "/",
    // antecedentes: "/Antecedentes",
 }
